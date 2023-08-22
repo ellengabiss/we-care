@@ -1,0 +1,142 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+header {
+    margin: 44px 0 20px 50px;
+    color: #989D9C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 30px;
+    margin-right: 23px;
+
+
+}
+
+.link-header {
+    margin-right: 23px;
+
+}
+
+.roxinho {
+    width: 130px;
+    height: 41px;
+    background-color: rgb(102, 90, 225, 1);
+    border-radius: 20.5px;
+    font-size: 24px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+div {
+    margin-top: 0px;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 30px;
+
+
+}
+
+img {
+    margin-left: 120px;
+    display: inline-block;
+}
+
+h1 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+h2 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+p {
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    Width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.verdinho {
+
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #ADFF00;
+    border: none;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+@media screen and (max-width:900px) {
+
+    img {
+       margin: 70px 20px 40px 20px;
+        position: static;
+        width: 357px;
+        height: 325px;
+    }
+
+    
+    
+h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+div {
+    margin-left: 48px;
+}
+
+button {
+    margin-top: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+
+    }  
